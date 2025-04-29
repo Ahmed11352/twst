@@ -1,0 +1,19 @@
+ #Information {background-color: aquamarine;
+text-align: center;
+            }
+            .sub{
+                background-color: rgb(50, 165, 42);
+                display: inline-block;
+                width: 33%;
+            }
+            h1{color: red;}
+            h1{text-align: center;}
+            #header{
+                text-align: center;
+                font-size: 50px;
+                padding: 30px;
+                border: rgb(63, 63, 137) solid;
+border-style: dashed;
+background-image: url(18.jpg);
+color: red;
+            }
