@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Affairs</title>
+</head>
+<body>
+    <form>
+        <fieldset> 
+            <legend>شؤون الطلاب </legend>
+            <br> 
+     <label for="tex"> الأسم</label>
+    <input type="text" id="tex" placeholder=" Ahmed Hossam"> 
+    <br>
+    <br>
+    <label for="تخصص">التخصص</label>
+    <input type="text" id="تخصص" placeholder="Gis and Remote Sensing">
+    <br>
+    <br>
+    <label for="سنة التخرج">سنة التخرج</label>
+    <input type="number" id="سنة التخرج" placeholder="2025">
+    <br>
+    <br>
+    <label for="email"> email</label>
+    <input type="email" id="email" placeholder="ahmed.hossam2014@gmail.com">
+    <br>
+    <br>
+    <label for="رقم التليفون">رقم التليفون </label>
+    <input type="number" id="رقم التليفون " placeholder="01146763012">
+    <br>
+    <br>
+    <label for="وصف المشكلة"> وصف المشكلة</label>
+    <textarea name="وصف المشكلة" id="وصف المشكلة " cols="100" role="1000"></textarea>
+    <br>
+    <br>
+    <h3> GPA </h3>
+    <label for="1"> 4 </label>
+    <input type="radio" id="1" >
+    <br>
+    <label for="2"> 3 </label>
+    <input type="radio" id="2" >
+    <br>
+    <label for="3"> 2 </label>
+    <input type="radio" id="3" >
+    <br>
+    <label for="3"> 1 </label>
+    <input type="radio" id="4" >
+<br>
+<br>
+<label for="مكان الإقامة">مكان الإقامة الحالي</label>
+<select name="مكان الإقامة" id="مكان الإقامة"> 
+    <option value="مكان الإقامة">القاهرة</option>
+    <option value="مكان الإقامة">الجيزة</option>
+    <option value="مكان الإقامة">الإسكندرية</option>
+    <option value="مكان الإقامة">المنصورة</option>
+    <option value="مكان الإقامة">أخرى</option>
+   
+
+
+</select>
+<br>
+<br>
+<br>
+
+<input type="submit" value="Send">
+</fieldset>
+
+    </form>
+</body>
+</html>
